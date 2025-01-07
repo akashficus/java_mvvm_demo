@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JavaMVVMDemo</string>
+    <string name="key_session_expired">Session Expired</string>
+    <string name="key_you_session_has_expired">your session has expired.
+        You will be redirected to login page.</string>
+    <string name="key_ok">OK</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="#c5ebf7"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Left side: Date and Title -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="16dp">
+
+            <!-- Date -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/article_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="July 7, 2024"
+                android:textSize="12sp"
+                android:textColor="#888"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Title -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/article_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Article Title"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <!-- Description -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/article_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description of the article goes here."
+                android:textSize="14sp"
+                android:maxLines="4"
+                android:ellipsize="end"
+                android:textColor="#808080"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+        <!-- Right side: Image -->
+        <ImageView
+            android:id="@+id/article_image"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="0.65"
+            android:src="@drawable/image_sample"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:contentDescription="Article Image" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
