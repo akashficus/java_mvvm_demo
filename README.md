@@ -47,11 +47,10 @@ These components work together to ensure that error responses from the server or
 
 Here’s an illustration showing the error handling structure:
 
-![Error Handling in Java MVVM](https://github.com/imandroiddeveloper/JavaMVVMDemo1/blob/master/img.png)
+![Error Handling in Java MVVM](https://github.com/akashficus/java_mvvm_demo/blob/master/img.png)
 
 ## Screenshot
 
 Here is a screenshot of the demo project:
-
-![MVVM Demo Screenshot](https://github.com/imandroiddeveloper/JavaMVVMDemo1/blob/master/Screenshot_20250107_183109.png)
+![MVVM Demo Screenshot](https://github.com/akashficus/java_mvvm_demo/blob/master/Screenshot_20250107_183109.png)
 
